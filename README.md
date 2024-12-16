@@ -2,7 +2,7 @@
 
 **Overview**
 
-**Project Description:**✨\
+**Project Description:** ✨\
 This project was undertaken as a weekend exploration to evaluate how agentic retrieval might be applied to a hierarchical record system, such as the ICD-10 coding schema. ICD-10 coding schem The approach differs from traditional AI-based methods that often operate as "black-box" classifiers. Instead, this system attempts to mimic a human coder’s process: it systematically navigates through the directory structure of ICD-10 codes, employing a graph-based, breadth-first search (BFS) strategy to locate the most precise and applicable codes. ✨
 
 Recent advancements in artificial intelligence have significantly enhanced the automation of ICD-10 coding from clinical narratives. Notably: ✨
