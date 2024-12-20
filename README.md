@@ -12,8 +12,10 @@ output codes and analysis:
 ## Usage:
 1. Clone the repository (git clone https://github.com/ojasviyadav/medical-coding-agent)
 2. Install the dependencies (pip install -r requirements.txt)
-3. Run the main.py file (python main.py)
-4. Enter the patient notes (press Enter twice to use default note)
+3. Create a .env file with the following variables:
+    - ANTHROPIC_API_KEY: your Anthropic API key
+4. Run the main.py file (python main.py)
+5. Enter the patient notes (press Enter twice to use default note)
 
 ---
 ## Canvas / Overview
