@@ -6,7 +6,7 @@ input:
 ![WhatsApp Image 2024-12-20 at 17 18 16_7e0f40a2](https://github.com/user-attachments/assets/2ccba079-d819-42f7-8fb2-c58fa88fdab1)
 
 output codes and analysis:
-![WhatsApp Image 2024-12-20 at 17 18 15_39069d85](https://github.com/user-attachments/assets/352b3cbd-c009-49c1-87c7-20ab5b83f285)
+![image](https://github.com/user-attachments/assets/595d35e0-e2da-4dc9-83df-3dbca5e4e86e)
 
 ---
 ## Canvas / Overview
