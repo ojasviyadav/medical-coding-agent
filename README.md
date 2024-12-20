@@ -9,6 +9,13 @@ output codes and analysis:
 ![image](https://github.com/user-attachments/assets/595d35e0-e2da-4dc9-83df-3dbca5e4e86e)
 
 ---
+## Usage:
+1. Clone the repository (git clone https://github.com/ojasviyadav/medical-coding-agent)
+2. Install the dependencies (pip install -r requirements.txt)
+3. Run the main.py file (python main.py)
+4. Enter the patient notes (press Enter twice to use default note)
+
+---
 ## Canvas / Overview
 
 ### Project Description ✨
