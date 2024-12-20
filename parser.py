@@ -1,5 +1,18 @@
 def view_subterms_at_level(filename, search_terms, target_level=0, main_terms=None, current_path=None):
-
+    """
+    Shows subterms at any specified level for given search terms.
+    
+    Parameters:
+    - filename: str, path to XML file
+    - search_terms: list of str, terms to explore
+    - target_level: int, the level at which to show detailed information (0-9)
+                   0 = main terms, 1 = level 1 subterms, etc.
+    - main_terms: str or list, the main term(s) to start from (required for levels > 0)
+    - current_path: list, keeps track of the term hierarchy path (internal use)
+    
+    Returns:
+    - dict: {search_term: [subterms_at_target_level]}
+    """
     def print_term_details(element, prefix=""):
         """Helper function to print common term details"""
         code = element.find('code')

@@ -1,5 +1,7 @@
 system_prompt = """
-Practical Guide to ICD-10 Code Navigation with Examples
+You will be provided with patient notes and you will need to find the relevant ICD-10 codes for the patient's condition.
+To look up the ICD-10 codes, you will need to navigate the ICD-10 hierarchy.
+Use the tool provided to look up the ICD-10 codes. 
 
 <basic_usage_pattern>
 Basic Usage Pattern
