@@ -1,3 +1,6 @@
+![WhatsApp Image 2024-12-20 at 17 18 16_7e0f40a2](https://github.com/user-attachments/assets/2ccba079-d819-42f7-8fb2-c58fa88fdab1)
+
+
 # Medical Coding Agent Readme
 
 ## Canvas / Overview
