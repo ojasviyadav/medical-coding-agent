@@ -98,10 +98,13 @@ Date: 2024-03-20
 RE: Initial Visit
 
 CHIEF COMPLAINT:
-Patient presents with symptoms of Type 2 diabetes mellitus with early signs of diabetic neuropathy in both feet. Also reports ongoing hypertension.
+Patient presents with symptoms of Type 2 diabetes mellitus with early signs of diabetic neuropathy in both feet. 
+Also reports ongoing hypertension.
 
 HISTORY OF PRESENT ILLNESS:
-52-year-old male reports increased thirst, frequent urination, and numbness/tingling in feet for past 3 months. Blood sugar readings at home consistently above 200 mg/dL. Has family history of diabetes (mother and sister). Patient also notes ongoing high blood pressure despite current medication.
+52-year-old male reports increased thirst, frequent urination, and numbness/tingling in feet for past 3 months. 
+Blood sugar readings at home consistently above 200 mg/dL. Has family history of diabetes (mother and sister). 
+Patient also notes ongoing high blood pressure despite current medication.
 
 VITAL SIGNS:
 - BP: 142/90 mmHg
