@@ -36,9 +36,6 @@ class ToolHandler:
         main_terms = input_data.get('main_terms')
         current_path = input_data.get('current_path')
 
-        # Validate required parameters
-        if not filename or not search_terms:
-            raise ValueError("Required parameters 'filename' and 'search_terms' must be provided")
 
         # Call the parser function
         results = view_subterms_at_level(

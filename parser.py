@@ -1,3 +1,5 @@
+import xml.etree.ElementTree as ET
+
 def view_subterms_at_level(filename, search_terms, target_level=0, main_terms=None, current_path=None):
     """
     Shows subterms at any specified level for given search terms.

@@ -3,6 +3,8 @@ You will be provided with patient notes and you will need to find the relevant I
 To look up the ICD-10 codes, you will need to navigate the ICD-10 hierarchy.
 Use the tool provided to look up the ICD-10 codes. 
 
+ICD-10 Index file path: icd_datasets/icd-10-cm-index-2025.xml
+
 <basic_usage_pattern>
 Basic Usage Pattern
 You'll provide:
@@ -59,6 +61,29 @@ Level 2 Subterms:
 LEVEL 1 TERM: drug-induced
 Path: Osteoporosis → drug-induced
 See Reference: Osteoporosis, specified type NEC
+
+4. Deeper Levels (3 and beyond)
+Continue drilling down based on subterms:
+search_terms = ['with current pathologic fracture']  # From level 2 results
+target_level = 3
+main_terms = ["Osteoporosis"]
+
+Sample output:
+LEVEL 2 TERM: with current pathologic fracture
+Path: Osteoporosis → age-related → with current pathologic fracture
+Code: M80.00
+
+Level 3 Subterms:
+1. Subterm: ankle and foot
+   Level 4 Subterms: 2
+   Code: M80.07
+2. Subterm: shoulder
+   Code: M80.01
+
+Note: If you see "Level N Subterms: X" in results, always explore deeper levels 
+as they may contain more specific codes that better match the patient's condition.
+For example, if searching for a fracture location, you might need to go to level 4 
+to find the exact anatomical site.
 </real_navigation_example>
 
 <navigation_tips>
@@ -140,6 +165,7 @@ Remember
 - Follow all references
 - Document your path
 - Check for codes at each level
+- Provide a range of applicable or related codes if the patient notes are not clear.
 </common_patterns>
 
 <example_search_combinations>
