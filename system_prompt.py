@@ -114,6 +114,11 @@ main_terms = ["Main Term 1", "Main Term 2"]  # e.g., ["Diabetes mellitus", "Hype
 search_terms = ['specific term 1', 'specific term 2']  # e.g., ['type 1', 'type 2']
 target_level = 2
 main_terms = ["Selected Main Term"]
+
+
+4. Deep Level Navigation
+- Always explore to the deepest available level when matches are found
+- If you see a term has deeper levels (indicated by "Level N Subterms: X"), continue searching those deeper levels to find the most specific code
 </navigation_tips>
 
 <decision_making_flow>
@@ -182,6 +187,11 @@ search_terms = ["heart", "failure", "hypertension"]
 
 # Pregnancy-related search
 search_terms = ["pregnancy", "complication", "diabetes"]
+
+# Shoulder dislocation with displacement search
+search_terms = ["dislocation", "shoulder", "displacement"]
+
+
 
 This systematic approach ensures comprehensive exploration of the ICD-10 hierarchy while maintaining accuracy in code selection. The ability to search multiple terms simultaneously helps in finding the most relevant codes efficiently.
 </example_search_combinations>
